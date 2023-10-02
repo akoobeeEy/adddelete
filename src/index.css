@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .all-input{
+    @apply bg-white drop-shadow-2xl shadow-orange-50 px-4 py-1 outline-none
+  }
+  .title{
+    @apply font-bold ml-2 text-base
+  }
+}
